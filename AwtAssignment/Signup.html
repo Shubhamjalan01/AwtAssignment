@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="./func.js" defer></script>
+    <link rel="stylesheet" href="css/Signup.css" />
+    <style>
+      body {
+        margin: 0px;
+        padding: 0px;
+      }
+    </style>
+    <title>SignUp</title>
+  </head>
+  <body>
+    <div>
+      <h1>SignUp</h1>
+    </div>
+
+    <div>
+      <form class="form" action="CreateAccount.php" method="post">
+        <label for="name"><b>Name: </b></label>
+        <input type="text" id="name" name="Name" placeholder="Enter name" /><br><br>
+        <label for="regno"><b>Regno: </b></label>
+        <input
+          type="text"
+          id="regno"
+          name="regno"
+          placeholder="Enter registration no"
+        /><br><br>
+        <label for="email"><b>Email: </b></label>
+        <input type="text" id="email" name="email" placeholder="xyz@gmail.com" /><br><br>
+        <label for="password"><b>Password: </b></label>
+        <input
+          type="password"
+          id="password"
+          name="password"
+          placeholder="Enter password"
+        /><br><br>
+        <label for="confirm_password"><b>Confirm Password: </b></label>
+        <input
+          type="password"
+          id="confirm_password"
+          name="confirm_password"
+          placeholder="Re-enter password"
+        /><br><br>
+        <button type="submit" class="btn_submit">Submit</button>
+        <button type="button" class="btn_submit" onclick="Go_login()">
+          Login
+        </button>
+      </form>
+    </div>
+  </body>
+</html>

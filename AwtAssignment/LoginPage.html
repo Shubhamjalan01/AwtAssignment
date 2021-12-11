@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/LoginPage.css" />
+    <script src="./func.js" defer></script>
+    <style>
+      body {
+        margin: 0px;
+        padding: 0px;
+      }
+    </style>
+    <title>Login Page</title>
+  </head>
+  <body>
+    <div>
+      <h1>Login Page</h1>
+    </div>
+
+    <div class="form_div">
+      <form class="form" action="LoginPage.php" method="post">
+        <label for="username"><b>Username: </b></label>
+        <input
+          type="text"
+          id="username"
+          name="username"
+          placeholder="Enter Reg Number"
+        /><br><br>
+        <label for="password"><b>Password: </b></label>
+        <input
+          type="password"
+          id="password"
+          name="pass"
+          placeholder="Enter password"
+        /><br><br>
+        <button type="submit" class="btn_submit">Login</button>
+        <button class="btn_submit" type="button" onclick="createACC()">
+          SignUp
+        </button>
+      </form>
+    </div>
+  </body>
+</html>

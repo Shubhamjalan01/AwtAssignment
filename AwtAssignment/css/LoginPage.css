@@ -1,0 +1,40 @@
+body {
+background-color: #D0D1EE;
+}
+
+
+
+
+h1 {background-color: #C70039;color: white
+}
+label {font-family:verdana}
+button[type=submit] {
+  width:8%;
+  background-color: #C70039;
+  color: white;
+  padding: 10px 15px;
+  margin: 4px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+button[type=submit]:hover {
+  background-color: #900C3F;
+}
+button[type=button] {
+  width:8%;
+  background-color: #C1C1C1;
+  padding: 10px 15px;
+  margin: 4px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+button[type=button]:hover {
+  background-color: #DADADA;
+}
+div {
+  border-radius: 5px;
+  background-color: #ffffff;
+  padding: 20px;
+}
